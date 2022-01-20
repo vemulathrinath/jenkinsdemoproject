@@ -7,6 +7,7 @@
                 <methods>
                     <include name="demoTest1"/>
                     <include name="demoTest2"/>
+                    <include name="demoTest3"/>
                 </methods>
             </class>
         </classes>

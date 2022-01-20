@@ -28,4 +28,14 @@ public class DemoTest {
         System.out.println(driver.getTitle());
         driver.quit();
     }
+
+    @Test
+    public void demoTest3(){
+        System.out.println(" this is demo test three");
+        WebDriverManager.chromedriver().setup();
+        WebDriver driver = new ChromeDriver();
+        driver.get("https://opensource-demo.orangehrmlive.com/");
+        System.out.println(driver.getTitle());
+        driver.quit();
+    }
 }
