@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test name="C:/Users/HP CORE i3/IdeaProjects/jenkinsdemoproject">
+        <classes>
+            <class name="com.tests.DemoTest">
+                <methods>
+                    <include name="demoTest1"/>
+                    <include name="demoTest2"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
